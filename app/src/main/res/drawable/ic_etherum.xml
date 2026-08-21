@@ -1,0 +1,58 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="512dp"
+    android:height="512dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+
+    <!-- White circular background -->
+    <path
+        android:pathData="M256,16
+            C123.45,16 16,123.45 16,256
+            C16,388.55 123.45,496 256,496
+            C388.55,496 496,388.55 496,256
+            C496,123.45 388.55,16 256,16 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Ethereum upper crystal -->
+    <path
+        android:pathData="M256,105
+            L187,256
+            L256,216
+            L325,256
+            Z"
+        android:fillColor="#8A8A8A" />
+
+    <!-- Ethereum upper dark side -->
+    <path
+        android:pathData="M256,105
+            L256,216
+            L325,256
+            Z"
+        android:fillColor="#333333" />
+
+    <!-- Ethereum lower crystal -->
+    <path
+        android:pathData="M187,270
+            L256,310
+            L325,270
+            L256,407
+            Z"
+        android:fillColor="#777777" />
+
+    <!-- Ethereum lower dark side -->
+    <path
+        android:pathData="M256,310
+            L325,270
+            L256,407
+            Z"
+        android:fillColor="#222222" />
+
+    <!-- Small center highlight -->
+    <path
+        android:pathData="M256,216
+            L187,256
+            L256,270
+            Z"
+        android:fillColor="#BDBDBD" />
+
+</vector>
