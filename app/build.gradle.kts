@@ -4,6 +4,7 @@ plugins {
 }
 
 android {
+    experimentalProperties["android.experimental.enableScreenshotTest"] = true
     namespace = "com.example.stockexhangeui"
     compileSdk {
         version = release(37) {
